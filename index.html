@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sister birthday</title>
+    <title> Ma akka puttina roju</title>
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -110,8 +110,8 @@
     <!-- P1 Modal (Initial Pop-up) -->
     <div id="p1-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-40">
         <div class="bg-white p-8 rounded-xl shadow-2xl max-w-sm mx-4 text-center">
-            <h2 class="text-2xl font-bold text-pink-500 mb-4">A Birthday Challenge Awaits!</h2>
-            <p id="p1-modal-subtext" class="text-gray-700 mb-6">Click to start your 10-page surprise journey!</p>
+            <h2 class="text-2xl font-bold text-pink-500 mb-4">Birthday Wishes</h2>
+            <p id="p1-modal-subtext" class="text-gray-700 mb-6">Click to start your wishes journey!</p>
             <div class="flex justify-between space-x-4">
                 <button onclick="handleCancel()" 
                         class="w-full py-3 px-6 bg-gray-300 text-gray-800 font-semibold rounded-lg hover:bg-gray-400 transition duration-300">
@@ -135,16 +135,28 @@
         const controlsElement = document.getElementById('control-panel');
         const p1Modal = document.getElementById('p1-modal');
         const finalMessage = `
-broooooo 🫶,
-
-Happy birthday, my extraordinary buddy and brother from another mother! It's hard to believe that the guy I once mistook for a senior would become such an irreplaceable part of my life. Our bond, built on countless laughs and unbreakable trust, is a true treasure that I cherish every day.
-
-Your patience and caring nature have been a beacon of support and love, guiding me through thick and thin. I'm truly grateful for your endless affection and the way you balance my overthinking by making fun of silly little things. You always know how to bring a smile to my face, and for that, I'm forever thankful.
-
-On this special day, I wish you all the happiness in the world, along with sab kuch jo tumhara dil chahta hai—may all your dreams come true. Here's to more memories, laughter, and a lifetime of brotherhood!
-
-With love and lots of masti,
-Yours irritating fellow lahari
+My dear akka 💖
+A sister by heart, a blessing by life 🌸
+Thank you for every moment you stood by me 🤍
+Your care shaped me in ways I’ll always remember 🌿
+I miss hearing your voice and seeing your smile 😊💭
+Some connections are forever, even in silence 💫
+On your birthday, I wish you peace, love, and light ✨
+May your future be bright and kind to you 🌟
+Happy birthday to someone truly special 🎂💝
+With all my love, always 💞
+        `;
+          const finalMessage1 = `
+My dear akka 123💖
+A sister by heart, a blessing by life 🌸
+Thank you for every moment you stood by me 🤍
+Your care shaped me in ways I’ll always remember 🌿
+I miss hearing your voice and seeing your smile 😊💭
+Some connections are forever, even in silence 💫
+On your birthday, I wish you peace, love, and light ✨
+May your future be bright and kind to you 🌟
+Happy birthday to someone truly special 🎂💝
+With all my love, always 💞
         `;
 
         // --- Utility Functions ---
@@ -153,7 +165,7 @@ Yours irritating fellow lahari
         function handleCancel() {
             card.classList.add('monkey-jump');
             const subtext = document.getElementById('p1-modal-subtext');
-            subtext.innerHTML = '<span class="text-red-500 font-bold">Woah! Only "Continue" works today!</span> The journey must go on! 🐒';
+            subtext.innerHTML = '<span class="text-red-500 font-bold">oh hello you are only allowed to click the  start button</span> The must go on! 🐒';
             
             // Remove the shake after a brief period
             setTimeout(() => {
@@ -196,7 +208,7 @@ Yours irritating fellow lahari
                     titleElement.textContent = 'chapter 1: The Decision';
                     contentElement.innerHTML = `
                         <p class="text-2xl text-center text-gray-700 font-semibold mb-6">
-                            You chose to continue! Now, let's proceed to the next step.
+                            Thank you for Continuing, go next step
                         </p>
                     `;
                     controlsElement.innerHTML = createContinueButton('To Page 2: The Celebration');
@@ -205,8 +217,8 @@ Yours irritating fellow lahari
                 case 2:
                     titleElement.textContent = ' chapter 2: Blow the Candles!';
                     contentElement.innerHTML = `
-                        <h2 class="text-2xl font-extrabold text-blue-600 mb-4">Welcome my bro, Thameem!</h2>
-                        <p class="text-gray-700 mb-6 text-center">Tap the candle flame to celebrate your birthday!</p>
+                        <h2 class="text-2xl font-extrabold text-blue-600 mb-4">Welcome andi, Lokeshwari gaaru!</h2>
+                        <p class="text-gray-700 mb-6 text-center"> blow the candle antey oodutaav emo, kaadu candle meeda tap chey</p>
                         <!-- Cake SVG with Clickable Candle -->
                         <div class="relative p-4">
                             <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -222,7 +234,7 @@ Yours irritating fellow lahari
                                     <path d="M100 20 L95 40 L105 40 Z" fill="#ff9800"/>
                                 </g>
                                 <!-- Text Decoration -->
-                                <text x="100" y="145" font-family="Inter" font-size="14" fill="#a855f7" text-anchor="middle">Happy Birthday</text>
+                                <text x="100" y="145" font-family="Inter" font-size="14" fill="#a855f7" text-anchor="middle">HBD AKKA </text>
                             </svg>
                         </div>
                     `;
@@ -234,13 +246,15 @@ Yours irritating fellow lahari
                     contentElement.innerHTML = `
                         <div class="text-center">
                             <div class="text-6xl mb-4 animate-pulse">🤝</div>
-                            <h2 class="text-2xl font-bold text-purple-600 mb-4">Brotherhood Forever!</h2>
+                            <h2 class="text-2xl font-bold text-purple-600 mb-4">Sister from another mother!</h2>
                             <p class="text-lg text-gray-700">
-                                This small gift represents the fire of our friendship. I hope we continue this amazing brotherhood relationship for a lifetime.
+                                Some bonds don’t need daily words to stay alive 🤍They live quietly in the heart, untouched by time 💫 No distance, no silence — just a connection that remains ♾️
+
+
                             </p>
                         </div>
                     `;
-                    controlsElement.innerHTML = createContinueButton('Continue Brotherhood');
+                    controlsElement.innerHTML = createContinueButton('go ahead! loki gaaru');
                     break;
 
                 case 4:
@@ -248,9 +262,9 @@ Yours irritating fellow lahari
                     contentElement.innerHTML = `
                         <div class="text-center bg-yellow-100 p-8 rounded-xl border-l-4 border-yellow-500 shadow-inner">
                             <p class="text-3xl font-serif italic text-yellow-700 leading-relaxed">
-                                "Be grateful for this life"
+                                "Thankful for a bond that still lives quietly in my heart 🤍💫"
                             </p>
-                            <p class="mt-4 text-sm text-gray-500">- A reminder to cherish every moment.</p>
+                            <p class="mt-4 text-sm text-gray-500">- from bottom of my heart.</p>
                         </div>
                     `;
                     controlsElement.innerHTML = createContinueButton('Got it!');
@@ -261,27 +275,27 @@ Yours irritating fellow lahari
                     contentElement.innerHTML = `
                         <div class="text-center">
                             <div class="text-6xl mb-4">🥺</div>
-                            <h2 class="text-2xl font-bold text-red-500 mb-4">I'm So Sorry, Bro.</h2>
+                            <h2 class="text-2xl font-bold text-red-500 mb-4">my heartful sorry to you.</h2>
                             <p class="text-lg text-gray-700 mb-6">
-                                I truly apologize for any hurt I may have caused in the past. Your happiness means everything to me.
+                                Naaku ippatiki artam kaavatled em chesaanu, enduku inta dooram pedtundi ani
                             </p>
                             <!-- Cute Image Placeholder (using a cute emoji for reliability) -->
                             <div class="text-7xl">
                                 🐶
                             </div>
-                            <p class="text-sm text-gray-500 mt-2">Your cute little buddy saying sorry!</p>
+                            <p class="text-sm text-gray-500 mt-2">Your handsome bro saying chorry to you!</p>
                         </div>
                     `;
-                    controlsElement.innerHTML = createContinueButton('Forgiven & Moving On');
+                    controlsElement.innerHTML = createContinueButton('U R choice to move on');
                     break;
 
                 case 6:
-                    titleElement.textContent = 'Page 6: The Fun Box';
+                    titleElement.textContent = 'Page 6: The message Box';
                     contentElement.innerHTML = `
                         <div class="text-center">
-                            <h2 class="text-2xl font-bold text-green-600 mb-6">A Funny Message Box!</h2>
+                            <h2 class="text-2xl font-bold text-green-600 mb-6"> Message Box!</h2>
                             <p class="text-lg text-gray-700 mb-8">
-                                I have an indirect box for you. Click on the cute, bouncing object below to see what it is!
+                                I have an indirect box for you. Click on the gift object
                             </p>
                             <!-- Bouncing Gift Animation -->
                             <div onclick="nextPage()" class="bouncing-gift cursor-pointer inline-block p-4 bg-purple-200 rounded-full shadow-xl hover:shadow-2xl transition duration-300">
@@ -314,9 +328,9 @@ Yours irritating fellow lahari
                     titleElement.textContent = 'Page 8: Patience Rewarded';
                     contentElement.innerHTML = `
                         <div class="text-center">
-                            <h2 class="text-3xl font-extrabold text-teal-600 mb-4">Thank You for Being Patient!</h2>
+                            <h2 class="text-3xl font-extrabold text-teal-600 mb-4">Thank You for Being Patience!</h2>
                             <p class="text-lg text-gray-700 mb-8">
-                                You've reached the final stretch! Your patience deserves a big reward. There is a special letter waiting for you.
+                                You've reached the final stretch! There is a special letter waiting for you.
                             </p>
                         </div>
                     `;
@@ -328,14 +342,14 @@ Yours irritating fellow lahari
                     contentElement.innerHTML = `
                         <div class="bg-yellow-50 p-6 rounded-lg shadow-inner w-full max-w-md mx-auto h-auto overflow-y-scroll max-h-[300px]">
                             <p class="text-gray-800 text-sm message-content leading-relaxed">
-                                <span class="font-bold text-pink-600">My Dear Thameem,</span>
+                                <span class="font-bold text-pink-600"> My dear Sister,</span>
                                 <br><br>
-                                I  know you never believe this but it always been very special for me so please accept me as a beautiful gift from God and but please read these words as my heartfelt letter to you.
+                                I  know you never believe this but it always been very special for me, but please read these words as my heartfelt letter to you.
                                 <br><br>
                                 ${finalMessage.trim().replace(/\n/g, '<br>')}
                             </p>
                         </div>
-                        <p class="mt-6 text-xl font-semibold text-gray-700">Yours lovingly...</p>
+                        <p class="mt-6 text-xl font-semibold text-gray-700">Yours lovely bro...</p>
                         <p class="text-sm text-gray-500">Tap the circle to continue to your final message!</p>
                         <!-- Tap Circle -->
                         <div onclick="nextPage()" class="mt-4 w-12 h-12 bg-red-500 rounded-full flex items-center justify-center cursor-pointer shadow-lg hover:shadow-xl transition duration-300 animate-pulse">
@@ -345,12 +359,12 @@ Yours irritating fellow lahari
                     break;
 
                 case 10:
-                    titleElement.textContent = '🎉 Page 10: The GRAND FINALE! 🎉';
+                    titleElement.textContent = '🎉 Page 10: The Final Message! 🎉';
                     contentElement.innerHTML = `
-                        <h2 class="text-4xl font-extrabold text-purple-600 mb-6 text-center">HAPPY BIRTHDAY,!</h2>
+                        <h2 class="text-4xl font-extrabold text-purple-600 mb-6 text-center">HAPPY BIRTHDAY AKKA,!</h2>
                         <div class="bg-purple-100 p-6 rounded-xl shadow-inner w-full max-w-md mx-auto">
                             <p class="text-gray-800 text-base message-content leading-relaxed">
-                                ${finalMessage.trim().replace(/\n/g, '<br><br>')}
+                                ${finalMessage1.trim().replace(/\n/g, '<br><br>')}
                             </p>
                         </div>
                         <p class="mt-6 text-xl text-pink-500 font-bold">Hope you loved this surprise, my !</p>
@@ -428,3 +442,4 @@ Yours irritating fellow lahari
 
 </body>
 </html>
+
